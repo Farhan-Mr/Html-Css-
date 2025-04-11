@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: whitesmoke;
+    color: #22303c;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: #c0cdd9;
+}
+div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+
+
+}
+
+#box{
+
+    width: 250px;
+    height: 250px;
+
+    background-color: #7ab486;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box:hover{
+    background-color: whitesmoke;
+}
+
+#circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #c9d96e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle:hover{
+    background-color: #ffffff;
+  
+}
+
+#diamond{
+    width: 250px;
+    height: 250px;
+
+    margin-top: 70px;
+    rotate: 45deg;
+    background-color: #c57373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#diamond:hover{
+    background-color: #ffffff;
+}

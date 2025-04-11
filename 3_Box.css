@@ -1,0 +1,33 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body,head
+{
+    width: 100% ;
+    height: 100% ;
+}
+#box1{
+    background: #dea8a8;
+    height: 300px;
+    width: 300px;
+}
+#box2{
+    background: #dbdea8;
+    height: 300px;
+    width: 300px;
+
+}
+#box3{
+    background: #a8ddde;
+    height: 300px;
+    width: 300px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}

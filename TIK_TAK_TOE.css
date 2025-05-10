@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body,head{
+
+    width: 100%;
+    height: 100%;
+    background: #c8cebe;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #596854;
+
+}
+
+
+#upper
+{
+    margin-top: 30px;
+    padding: 30px;
+    background: #ece4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BIG
+{
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#box1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBE9BD;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 30%;
+
+}
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #FBE9BD;
+    margin-bottom: 10px;
+    border-radius: 30%;   
+}
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #FBE9BD;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;       
+}
+#box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #FBE9BD;
+    margin-bottom: 10px;
+    border-radius: 30%;
+   
+}
+#box5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBE9BD;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+#box6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #FBE9BD;
+    margin-bottom: 10px;
+    border-radius: 30%;
+}
+#box7{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBE9BD;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;    
+    margin-bottom: 10px;
+}
+#box8{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: #FBE9BD;
+    border-radius: 30%;
+    margin-bottom: 10px;
+
+
+}
+#box9{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBE9BD;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    margin-bottom: 10px;
+    border-radius: 30%;
+
+}
+#button
+{
+    height: 30px;
+    width: 50px;
+    border-radius: 12%;
+    background-color: #c8cebe;
+    
+}

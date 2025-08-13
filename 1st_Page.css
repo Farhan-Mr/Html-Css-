@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(232, 240, 239, 0.808);
+    font-family: system-ui, -apple-system, Cantarell;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    color: rgb(12, 70, 73);
+}
+p{
+    font-family: system-ui, sans-serif;
+    font-size: larger;
+}
+hr{
+    width: 20%;
+    height: 2px;
+    background-color: black;
+}

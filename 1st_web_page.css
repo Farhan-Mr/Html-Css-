@@ -1,0 +1,101 @@
+*{
+    margin: 1px;
+    padding: 0%;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+}
+
+#upper{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.Up{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.abc{
+    background-color: whitesmoke;
+    width: 60px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: greenyellow;
+    padding: 2px;
+}
+#boody{
+    width: 1518px;
+    height: 580px;
+    background-image: url(https://images8.alphacoders.com/115/1156488.png);
+    background-size:cover;
+}
+
+#box4{
+
+    height: 300px;
+    width: 1050px;
+    margin-left: 25px;
+    background-image: url(https://w0.peakpx.com/wallpaper/442/655/HD-wallpaper-blue-lines-background-blue-lines-texture-cardboard-texture-creative-blue-background-thumbnail.jpg);
+    background-size:cover;
+    border-radius: 5px;
+}
+#BOX5{
+    height: 220px;
+    width: 1450px;
+    background-image: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f068200b0c2e168d3d5f8dd7cddd575e.jpeg);
+    background-size: cover;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box6
+{
+    width: 1450px;
+    height: 320px;
+    margin-left: 30px;
+    background-image: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f068200b0c2e168d3d5f8dd7cddd575e.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.3);
+    rotate: 180deg;
+}
+.iimg
+{
+    width: 90px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+.iimg:hover
+{
+    width: 100px;
+    height: 60px;
+    margin: 4px;
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+#img:hover{
+        
+    transform: rotate(7deg);
+    transition-duration: 15s;
+
+}

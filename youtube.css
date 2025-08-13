@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#box1{
+    background: #ffffff;
+    height: 729px;
+    width: 15%;
+}
+
+#box2
+{
+    background: #ffffff;
+    height: 100px;
+    width: 102.5%;
+    display: flex;
+}
+
+#shorts
+{
+    background: white;
+    width: 102.5%;
+    height: 629px;
+    display: flex;
+    
+}
+#part1
+{
+    background-color:white;
+    width: 400px;
+    margin-right: 10px;
+}
+#part2
+{
+    background-color: rgb(182, 186, 204);
+    width: 380px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+#part3
+{
+    background-color: white;
+    width: 70px;
+    
+}
+#part4
+{
+    background-color: white;
+    width: 70px;
+    margin-left: 280px;
+    
+}
+#Biriyani
+{
+    width: 380px;
+    height: 600px;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}

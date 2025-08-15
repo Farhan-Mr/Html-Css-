@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+}
+#Topic
+{
+    background: rgb(72, 86, 85);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#Topic2
+{
+    background-color: whitesmoke;
+    margin-right: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(231, 224, 224);
+}
+
+.all
+{
+    background-color: rgb(188, 179, 179);
+    padding: 20px;
+    display: flex;
+}
+
+#circle1
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle2
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle3
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle4
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle5
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#circle6
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle1:hover
+{
+    background-color: rgb(94, 104, 122);
+}
+#circle2:hover
+{
+    background-color: rgb(62, 52, 66);
+}
+#circle3:hover
+{
+    background-color: rgb(52, 108, 51);
+}
+#circle4:hover
+{
+    background-color: rgb(109, 115, 134);
+}
+#circle5:hover
+{
+    background-color: rgb(138, 129, 41);
+}
+#circle6:hover
+{
+    background-color: rgb(31, 53, 47);
+}

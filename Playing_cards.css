@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(great-sky-with-clouds.jpg);
+    background-size:cover;
+}
+
+#BOX{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards
+{
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50% -50%);
+}
+
+#Box1{
+    rotate: 0deg;
+    object-fit: fill;
+}
+
+#Box1:hover{
+    z-index: 7;
+    cursor: pointer;
+}
+
+#Box2{
+    z-index: 2;
+    rotate: 10deg;
+    object-fit: fill;
+}
+
+#Box2:hover{
+    z-index: 8;
+    cursor: pointer;
+}
+
+
+#Box3{
+    z-index: 3;
+    rotate: 20deg;
+    object-fit: fill; 
+}
+
+#Box3:hover{
+    z-index: 9;
+    cursor: pointer;
+}
+
+
+#Box4{
+    z-index: 4;
+    rotate: 30deg;
+    object-fit: fill;
+}
+
+#Box4:hover{
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+#Box5{
+    z-index: 5;
+    rotate: 40deg;
+    object-fit: fill;
+}
+
+#Box5:hover{
+    z-index: 11;
+    cursor: pointer;
+}
+
+
+#Box6{
+    z-index: 6;
+    rotate: 50deg;
+    object-fit: fill;
+}
+
+#Box6:hover{
+    z-index: 12;
+    cursor: pointer;
+}
+
+.img{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 15px;
+}

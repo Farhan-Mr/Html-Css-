@@ -1,0 +1,56 @@
+<!-- To find the sum of 2 number value input in text and sum print in the using HTML & JS -->
+
+<html>
+<head>
+
+    <title>Sum 2 Number</title>
+
+    <script>
+        function CalSum()
+        {
+            var num1, num2, sum;
+            num1 = document.getElementById("num1").value;
+            num2 = document.getElementById("num2").value;
+
+            a = parseFloat(num1);
+            b = parseFloat(num2);
+            sum = a + b;
+            document.getElementById("sum").value = sum;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div align="center" >
+
+        <table>
+            <tr>
+                <td colspan="2"></td><h1>Calculate 2 Number</h1></td>
+            </tr>
+            <tr>
+                <td><h4>Enter 1st Number</h4></td>
+                <td><input type="text" id="num1"></td>
+            </tr>
+
+            <tr>
+                <td><h4>Enter 2nd Number</h4></td>
+                <td><input type="text" id="num2"></td>
+            </tr>
+
+            <tr>
+                <td><h4>Sum of two Number is </h4></td>
+                <td><input type="text" id="sum"></td>
+            </tr>
+
+            <tr>
+                <td><input type="reset"></td>
+                <td> <input type="submit" id="ok" value="Add" onclick="CalSum()"></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>

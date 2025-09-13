@@ -28,7 +28,8 @@
 
         <br><br><br>
 
-        <table>
+        <div id="conatiner">
+        <table id="table">
             <tr>
                 <td colspan="2"></td><h1>Calculate 2 Number</h1></td>
             </tr>
@@ -43,16 +44,19 @@
             </tr>
 
             <tr>
+                <td> <input type="submit" id="ok" value="➕" onclick="CalSum()"></td>
+            </tr>
+
+            <tr>
                 <td><h4>Sum of two Number is </h4></td>
                 <td><input type="text" id="sum"></td>
             </tr>
 
-            <tr>
-                <td><input type="reset"></td>
-                <td> <input type="submit" id="ok" value="Add" onclick="CalSum()"></td>
-            </tr>
         </table>
+         </div> <!-- end of conatiner -->
     </div>
+
+    <br><br>
     
 </body>
 

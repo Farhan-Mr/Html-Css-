@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Area Of Square</title>
+
+        <script>
+            function ar()
+            {
+                var l, area;
+                l = document.getElementById("len").value; 
+                a = parseFloat(l);
+                area = a * a;
+                document.getElementById("answer").value = area;
+            }
+        </script>
+    </head>
+
+    <body>
+        <center>
+            <br><br><br>
+            <h2>Area Of Square</h2> <br>
+            <h3>Enter Length of one side of Square</h3>
+            <input type="text" id="len"><br>
+
+            <br>
+            <button type="submit" onclick="ar()">Area</button>
+
+            <h3>Area of Square is :</h3> <input type="text" id="answer">
+        </center>
+    </body>
+</html>

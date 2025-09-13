@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+
+        <script>
+            function validation()
+            {
+                var roll,name,email;
+                roll = document.getElementById("tr").value;
+                name = document.getElementById("tn").value;
+                email = document.getElementById("te").value;
+
+               if(roll === "" && name === "" && email === "")
+               {
+                alert("Please enter all details before submitting the form");
+                    docunemt.getElementById("tn").focus();
+               }
+               else if (roll ==="")
+               {
+                    alert('Enter roll number');
+                    document.getElementById("tr").focus();
+               }
+               else if (name ==="")
+               {
+                alert("Please enter your name");
+                document.getElementById("tn").focus();
+               }
+               else if (email ==="")
+               {
+                alert("Enter Email");
+                document.getElementById("te").focus();
+               }
+
+               else {
+                alert ("Succesfully submitted");
+               }
+
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+        <center><br><br>
+            <h2>Form</h2> <br>
+        <h3>Enter Name</h3>
+        <input type="text" id="tn"><br>
+        <h3>Enter Roll number </h3>
+        <input type="text" id="tr"><br>
+        <h3>Enter Email </h3>
+        <input type="email" id="te"><br><br>
+
+        <button onclick="validation()"> Submit </button>
+
+        </center>
+
+    </body>
+
+
+</html>

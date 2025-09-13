@@ -1,0 +1,38 @@
+<!-- Web page to find perimeter of square -->
+<html>
+    <head>
+        <title>Perimeter of square</title>
+    
+        <script>
+            function calculation()
+            {
+                var len, ans;
+                len = document.getElementById("length").value;
+                len = parseInt(len);
+                ans = (4*len);
+                document.getElementById("answer").value = ans;
+            }
+        </script>
+    
+    </head>
+
+    <body>
+        <center>
+            <br><br>
+            <h1>Perimeter of Square</h1><br><br>
+            <div id="container">
+
+                <h3>Enter Length of Square</h3>
+                <input type="text" id="length"><br><br>
+                <button type="submit" onclick="calculation()">Get</button><br><br>
+                <h3>Perimeter of square : </h3>
+                <input type="text" id="answer">
+
+                <br><br>
+                <input type="button" value="Refresh" onclick="window.location.reload()">
+
+            </div>
+
+        </center>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Area + Perimeter of Rectangle</title>
+
+        <script>
+
+            var length,breadth,area,perimeter;
+            function Ans()
+            {
+                length = document.getElementById("len").value;
+                breadth = document.getElementById("bre").value;
+
+                length = parseInt(length);
+                breadth = parseInt(breadth);
+
+                area = length*breadth;
+                perimeter = 2*(length+breadth);
+
+                document.getElementById("area").value = area;
+                document.getElementById("perimeter").value = perimeter;
+            }
+
+        </script>
+    </head>
+
+    <body>
+        
+        <center>
+            <br><br>
+            <h2>Rectangle</h2>
+            <div id="conatiner">
+
+                <span style="color: #205533; font-family: cursive; font-size: large;"> Enter Length and Breadth of Rectangle </span><br>
+                <div id="Box1">
+                        <h3>Length </h3>
+                        <input type="text" id="len">
+                        <h3>Breadth </h3>
+                        <input type="text" id="bre"> 
+                </div><br>
+                <button type="submit" onclick="Ans()" >Get</button>
+                <div id="Box2">
+                        <h3>Area of Rectangle is :   <input type="text" id="area"> </h3>
+                        <h3>Perimeter of Rectangle is :   <input type="text" id="perimeter"></h3>
+                </div>
+
+                <br>
+                <button type="button" onclick="window.location.reload()" > CLEAR </button>
+            </div>
+        </center>
+    </body>
+</html>
+

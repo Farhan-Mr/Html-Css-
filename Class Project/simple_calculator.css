@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculatorBox
+{
+    
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 500px;
+    width : 380px;
+    background: linear-gradient(180deg , #0f1c3f 50% , #000000 100%);
+
+}
+
+input[type="text"]
+{
+    border: none; 
+    width: 90%; 
+    height: 80px; 
+    background-color: transparent;
+    color: black;
+    background-color: whitesmoke;
+    
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-right: 15px;
+    border-radius: 12px;
+    
+    text-align: right;
+    font-size:xxx-large;
+    font-weight: bold;
+    
+}
+
+.but
+{
+    height: 55px;
+    width: 55px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    background-color: #e0e1e6;
+    cursor: pointer;
+
+}

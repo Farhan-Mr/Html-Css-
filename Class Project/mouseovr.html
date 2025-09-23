@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <script>
+        function mouseover()
+        {
+            document.getElementsByTagName("div")[0].style.backgroundImage="url()";
+        }
+
+        function mouseout()
+        {
+            document.getElementsByTagName("div")[0].style.backgroundImage="url()";
+        }
+    </script>
+
+    <style>
+        div
+        {
+            width: 500px;
+            height: 500px;
+            border:solid 3px red;
+            border-radius: 40px;
+            background-image: url("image/admin.jpg") ;           
+        }
+    </style>
+
+    <title>MouseOver</title>
+</head>
+<body>
+    <center>
+        <div onmouseenter="mouseover()" onmouseleave="mouseout()">
+            <h1 align="center">Mouse Over Image</h1>
+            
+        </div>
+    </center>
+</body>
+</html>

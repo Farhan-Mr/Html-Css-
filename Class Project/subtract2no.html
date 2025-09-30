@@ -1,0 +1,43 @@
+<!-- Subtaction -->
+
+<html>
+    <head>
+        <title>Subtraction</title>
+
+        <script>
+            function subtraction ()
+            {
+                var n1, n2, sub;
+
+                n1 = document.getElementById("n1").value;
+                n2 = document.getElementById("n2").value;
+
+                n1 = parseInt(n1);
+                n2 = parseInt(n2);
+
+                sub = n1-n2;
+
+                document.getElementById("answer").value = sub;
+
+            }
+        </script>
+    </head>
+
+    <body>
+        <center>
+            <br><br><br><br><br>
+            <h1>Subtraction</h1><br>
+
+            <h3>enter 1st number : </h3>
+            <input type="text" id="n1"><br><br>
+            <h3>enter 2nd number : </h3>
+            <input type="text" id="n2"><br><br>
+
+            <input type="submit" onclick="subtraction()" value="Get"><br><br>
+
+            <h3>difference is : </h3>
+            <input type="text" id="answer">
+
+        </center>
+    </body>
+</html>

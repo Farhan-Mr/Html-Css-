@@ -1,0 +1,88 @@
+<!--  Working with block elements and objects -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #tablee
+        {   
+            margin-top: 100px;
+            border: 2px solid;
+            font-size: x-large;
+            font-family: sans-serif;
+            color: #203354;
+            background: linear-gradient(145deg , rgb(168, 144, 98), rgb(78, 141, 101));
+            padding: 30px;
+        }
+
+    input[type="text"]
+    {
+        border: none;
+        border-radius: 30px;
+        width: 250px; 
+        height: 30px; 
+        background-color: transparent;
+        color: black;
+        background-color: whitesmoke; 
+        text-align: center;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    input[type="submit"], input[type="reset"]
+    {
+        font-size: large;
+        border: 2px solid ;
+        background-color: transparent;
+        border-radius: 10px;
+        
+    }
+
+    </style>
+</head>
+<body>
+    
+        <section>
+        
+        <table id="tablee">
+
+            <th colspan="2">Student Entry Page</th>
+
+            <tr>
+                <td>Enter name : </td>
+                <td><input type="text" id="name"></td>
+            </tr>
+
+            <tr>
+                <td>Roll number : </td>
+                <td><input type="text" id="roll"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Course : </td>
+                <td><input type="text" id="course"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Email : </td>
+                <td><input type="text" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" id="submit" > <input value="Reset" type="reset" id="reset"></td>
+            </tr>
+        </table>
+        </section>
+    
+</body>
+</html>
